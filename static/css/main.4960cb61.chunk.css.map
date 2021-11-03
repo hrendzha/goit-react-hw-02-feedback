@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/components/FeedbackOptions/FeedbackOptions.module.css"],"names":[],"mappings":"AAAA,4CACI,wBACJ","file":"main.4960cb61.chunk.css","sourcesContent":[".option::first-letter {\n    text-transform: uppercase;\n}\n"]}
