@@ -18,10 +18,8 @@ class App extends Component {
     countPositiveFeedbackPercentage = () =>
         Math.round((this.state.good * 100) / this.countTotalFeedback()) || 0;
 
-    onLeaveFeedback = e => {
-        const option = e.target.dataset.option;
-        this.setState(state => ({ [option]: state[option] + 1 }));
-    };
+    onLeaveFeedback = label =>
+        this.setState(prevState => ({ [label]: prevState[label] + 1 }));
 
     render() {
         const { good, neutral, bad } = this.state;
