@@ -25,7 +25,6 @@ class App extends Component {
 
         return (
             <>
-                {/* Компоненти Section повинні бути тут чи краще було б їх забити в FeedbackOptions та Statistics ?*/}
                 <Section title="Please leave feedback">
                     <FeedbackOptions
                         options={Object.keys(this.state)}
